@@ -1,0 +1,36 @@
+package com.demo;
+
+import java.util.Arrays;
+
+public class StringManipulation {
+     public static void main(String args[]) {
+    	  String name ="Priya";
+    	  String obj = new String("Priya");
+    	  System.out.println(name==obj);
+    	  System.out.println(name.equals(obj));
+    	  System.out.println(name.toLowerCase());
+    	  System.out.println(name);
+    	  System.out.println(name.toUpperCase());
+    	  char b = name.charAt(3);
+    	  System.out.println(name.charAt(0));
+    	  System.out.println(b);
+    	  System.out.println(name.indexOf('a',2));
+    	  System.out.println(name.lastIndexOf('a'));
+    	  System.out.println(name.substring(0,2));
+    	  char[] a= name.toCharArray();
+    	  System.out.println(name.toCharArray());
+    	  System.out.println(a);
+    	  System.out.println(name.split("a"));
+    	  String[] d=name.split("a");
+    	  System.out.println(Arrays.toString(d));
+    	  System.out.println(Arrays.toString(a));
+    	  System.out.println(name.trim());
+    	  System.out.println(name.isBlank());
+    	  System.out.println(name.isEmpty());
+    	  System.out.println(name.concat("R D"));
+    	  System.out.println(name.replace('h','a' ));
+    	  System.out.println(name.replaceAll("Priya", "nandhu"));
+    	  System.out.println(name.replaceAll("(.*)ha(.*)","sri"));
+     }
+}
+    	  
